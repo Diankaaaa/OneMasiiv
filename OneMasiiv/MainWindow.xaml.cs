@@ -36,10 +36,9 @@ namespace OneMasiiv
             {
 
                 string num = INPUT.Text;
-                Parse_String(num);
                 string re = " ";
                 int[] nums = Parse_String(num);
-                int[] sum_mas = Parse_String(num); //new massiv summ chisel
+                int[] sum_mas = Parse_String(num); 
                 
                
                 string st = " "; 
@@ -51,12 +50,10 @@ namespace OneMasiiv
 
                 for(int d = 0; d < nums.Length; d++)
                 {
-                        //re += nums[d] + nums[j]; Failed
                         int n1 = nums[d] / 10;
                         int n2 = nums[d] % 10;
                         sum_mas[d] = n1 + n2;
-                        re += sum_mas[d] + " ";
-                        
+                        re += sum_mas[d] + " ";             
                 }
                 OUTPUT.Text += "Исходный массив: " + st + " " + Environment.NewLine;
                 OUTPUT.Text += "Массив сумм: " + re + " " + Environment.NewLine;
