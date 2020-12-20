@@ -24,7 +24,7 @@ namespace OneMasiiv
         {
             InitializeComponent();
         }
-        //Function Parse string in int
+        
         public int[] Parse_String(string str)
         {
             return str.Split(' ').Select(x => int.Parse(x)).ToArray();
@@ -41,9 +41,9 @@ namespace OneMasiiv
                 int[] nums = Parse_String(num);
                 int[] sum_mas = Parse_String(num); //new massiv summ chisel
                 
-                //MessageBox.Show(nums.ToString());
+               
                 string st = " "; 
-                //vivod massiva d textblock
+                
                 for (int g = 0; g < nums.Length; g++)
                 {
                     st += nums[g] + " ";
