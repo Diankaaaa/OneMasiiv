@@ -11,7 +11,7 @@
         <TextBox x:Name="INPUT" HorizontalAlignment="Left" Height="35" Margin="22,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="360" FontSize="16" Foreground="White" SelectionBrush="{x:Null}" Background="#FF434346"/>
         <TextBlock x:Name="OUTPUT" HorizontalAlignment="Left" Height="220" Margin="22,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="360" Foreground="White" FontSize="16" Background="#FF434346"/>
         <Button Content="Очистить" HorizontalAlignment="Left" Height="54" Margin="268,141,0,0" VerticalAlignment="Top" Width="114" Foreground="White" Background="#FF434346" FontSize="16" Click="Button_Click_1"/>
-        <Label Content="Введите 9 двузначных чисел" HorizontalAlignment="Left" Height="36" Margin="42,39,0,0" VerticalAlignment="Top" Width="348" FontSize="16" Foreground="White"/>
+        <Label Content="Введите 9 двузначных чисел через пробел" HorizontalAlignment="Left" Height="36" Margin="42,39,0,0" VerticalAlignment="Top" Width="348" FontSize="16" Foreground="White"/>
 
     </Grid>
 </Window>
